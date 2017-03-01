@@ -1,0 +1,7 @@
+#Wed Mar 01 12:19:23 ICT 2017
+base.0=C\:\\Users\\NVM Team Creative\\Desktop\\MyApplication5\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_19c58ecd7173a0bab2ecafd205f1c4042e34b21a
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\NVM Team Creative\\Desktop\\MyApplication5\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5e84238639b1d9fca5fdabc4d104fe764623fde8\\classes.dex
+base.1=C\:\\Users\\NVM Team Creative\\Desktop\\MyApplication5\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5e84238639b1d9fca5fdabc4d104fe764623fde8
+file.0=C\:\\Users\\NVM Team Creative\\Desktop\\MyApplication5\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_19c58ecd7173a0bab2ecafd205f1c4042e34b21a\\classes.dex
