@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.project.art.digital.android.myapplication5.MainActivity">
+
+    <TextView
+        android:text="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="33dp"
+        android:id="@+id/textViewUsername"
+        tools:text="Username"
+        android:textSize="14sp" />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textViewPassword"
+        android:layout_below="@+id/textViewUsername"
+        android:layout_alignLeft="@+id/textViewUsername"
+        android:layout_alignStart="@+id/textViewUsername" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:id="@+id/TextUsername"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/TextPassword"
+        android:hint="username" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/TextPassword"
+        android:layout_alignBaseline="@+id/textViewPassword"
+        android:layout_alignBottom="@+id/textViewPassword"
+        android:layout_alignLeft="@+id/TextUsername"
+        android:layout_alignStart="@+id/TextUsername"
+        android:hint="****************" />
+
+    <Button
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:onClick="onClickLogin"
+        android:id="@+id/buttonLogin"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_below="@+id/TextPassword"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/background_light" />
+</RelativeLayout>
