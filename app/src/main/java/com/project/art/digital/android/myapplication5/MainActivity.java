@@ -18,20 +18,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onClickLogin(View v) {
+    public void onClicksignin(View v) {
         textusername = (EditText) findViewById(R.id.TextUsername);
         password = (EditText) findViewById(R.id.TextPassword);
 
-        String uname = textusername.getText().toString();
+        String username = textusername.getText().toString();
         String pass = password.getText().toString();
 
-        if (!validasi(uname, pass)) {
+        if (!validasi(username, pass)) {
             Context context = MainActivity.this;
-            String message = "UserName/Password yang anda masukan salah, coba lagi ^^";
+            String message = "UserName/Password yang anda masukan salah ";
             Toast.makeText(context, message, Toast.LENGTH_LONG).show();
         } else {
             Context context = MainActivity.this;
-            String message = "UserName/Password benar ^^";
+            String message = "Login Berhasil";
             Toast.makeText(context, message, Toast.LENGTH_LONG).show();
             Intent submit = new Intent(MainActivity.this, Main2Activity.class);
             startActivity(submit);
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public boolean validasi(String Username, String Password) {
-        if (Username.equalsIgnoreCase("om") && Password.equalsIgnoreCase("rahasia")) {
+        if (Username.equalsIgnoreCase("rio") && Password.equalsIgnoreCase("20")) {
             return true;
         } else {
             return false;
