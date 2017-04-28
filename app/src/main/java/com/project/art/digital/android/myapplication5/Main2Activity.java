@@ -24,7 +24,7 @@ public class Main2Activity extends AppCompatActivity {
             setContentView(R.layout.activity_main2);
         }
 
-        public void onClickLogOut(View v) {
+        public void onClickSignOut (View v) {
             Intent submit = new Intent(Main2Activity.this, MainActivity.class);
             startActivity(submit);
         }
